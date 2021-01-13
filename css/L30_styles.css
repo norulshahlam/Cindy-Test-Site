@@ -228,14 +228,14 @@ img {
 
 /* mobile landscape view */
 
-@media (max-width: 1023px) {
+@media (max-width: 1023px) and (min-width: 769px) {
 	.icons,
 	.hero,
 	.solutions.flex-columns,
 	#Collections,
 	#review,
 	.footer {
-		width: 118 vw;
+		width: 117vw;
 	}
 
 	.section-header {
@@ -287,14 +287,14 @@ img {
 		height: 70%;
 	}
 	.navbar .logo {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		border-bottom: 1px solid white;
 		padding-bottom: 5px;
 		margin-bottom: 5px;
 	}
 
 	.navbar ul {
-		font-size: .9rem;
+		font-size: small;
 	}
 
 	.footer {
