@@ -240,6 +240,7 @@ img {
 
 	.section-header {
 		width: 100vw;
+		margin: auto;
 	}
 
 	.team img {
@@ -254,6 +255,9 @@ img {
 
 	.navbar .logo {
 		font-size: 25px;
+	}
+	.post p {
+		padding: 7px 27px;
 	}
 }
 
