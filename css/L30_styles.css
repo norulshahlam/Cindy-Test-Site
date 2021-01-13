@@ -226,6 +226,37 @@ img {
 	margin-right: 30px;
 }
 
+/* mobile landscape view */
+
+@media (max-width: 1023px) {
+	.icons,
+	.hero,
+	.solutions.flex-columns,
+	#Collections,
+	#review,
+	.footer {
+		width: 118vw;
+	}
+
+	.section-header {
+		width: 100vw;
+	}
+
+	.team img {
+		width: 270px;
+		height: 43%;
+	}
+
+	.flex-items {
+		width: 108vw;
+		margin: auto;
+	}
+
+	.navbar .logo {
+		font-size: 25px;
+	}
+}
+
 /* for mobile view */
 
 @media (max-width: 768px) {
