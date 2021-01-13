@@ -235,7 +235,7 @@ img {
 	#Collections,
 	#review,
 	.footer {
-		width: 118vw;
+		width: 118 vw;
 	}
 
 	.section-header {
@@ -262,7 +262,7 @@ img {
 @media (max-width: 768px) {
 	.navbar {
 		flex-direction: column;
-		height: 78px;
+		height: 90px;
 		padding: 12px 15px;
 	}
 
@@ -287,14 +287,14 @@ img {
 		height: 70%;
 	}
 	.navbar .logo {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		border-bottom: 1px solid white;
 		padding-bottom: 5px;
 		margin-bottom: 5px;
 	}
 
 	.navbar ul {
-		font-size: small;
+		font-size: .9rem;
 	}
 
 	.footer {
