@@ -211,7 +211,7 @@ img {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	height: 200px;
+	height: 130px;
 }
 
 .footer a {
@@ -224,6 +224,19 @@ img {
 
 .footer .social > * {
 	margin-right: 30px;
+}
+
+footer .footer-items {
+	font-size: 1.3rem;
+	margin: 0 20px;
+
+	padding-bottom: 10px;
+	border-bottom: #ccc solid 3px;
+}
+
+footer .footer-items .footer-item {
+	padding: 0 0px;
+	margin: 10px;
 }
 
 /* mobile landscape view */
