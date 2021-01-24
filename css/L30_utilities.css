@@ -7,6 +7,19 @@
 .text-secondary {
 	color: #0284d0;
 }
+#brand-text {
+	text-align: center;
+}
+.top-header {
+	font-size: 4rem;
+	padding: 0;
+	font-weight: 500;
+}
+.bottom-header {
+	font-size: 1.5rem;
+	padding: 0;
+	margin-bottom: 15px;
+}
 
 /* button */
 
