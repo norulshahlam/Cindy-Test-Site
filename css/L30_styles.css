@@ -279,8 +279,8 @@ footer .footer-items .footer-item {
 @media (max-width: 768px) {
 	.navbar {
 		flex-direction: column;
-		height: 90px;
-		padding: 12px 15px;
+		height: 134px;
+		padding: 3px 14px 11px;
 	}
 
 	.navbar a {
@@ -325,8 +325,23 @@ footer .footer-items .footer-item {
 	.post p {
 		padding: 7px 27px;
 	}
-}
 
-.flex-items .teams {
-	flex-basis: 33%;
+	.bottom-header {
+		padding: 0px 22px 5px;
+		margin-bottom: 3px;
+		border-bottom: white 1px solid;
+	}
+
+	.top-header {
+		line-height: 1.0;
+	}
+
+	footer .footer-items .footer-item {
+		margin: 4px;
+		font-size: 0.9rem;
+	}
+
+	.flex-items .teams {
+		flex-basis: 33%;
+	}
 }
